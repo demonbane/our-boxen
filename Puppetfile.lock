@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-bash
+  specs:
+    bash (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.6.1)
@@ -54,6 +59,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.5.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -99,6 +109,7 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
+  bash (= 1.1.0)
   boxen (= 3.6.1)
   dnsmasq (= 1.0.1)
   foreman (= 1.2.0)
@@ -112,6 +123,7 @@ DEPENDENCIES
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
   openssl (= 1.0.0)
+  osx (= 2.5.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
