@@ -2,8 +2,11 @@ class people::demonbane {
 #  include alfred
   include bash
   include bash::completion
+  include osx::dock::dim_hidden_apps
+  include osx::finder::show_all_on_desktop
+  include osx::keyboard::capslock_to_control
 #  include chrome
-  include emacs
+#  include emacs
 #  include fantastical
 #  include fitbit
 #  include skype
